@@ -1,0 +1,97 @@
+{
+  "Meta": {
+    "title": "Willo — Pose la question avec un lien",
+    "description": "Crée une page Oui / Non pour demander à quelqu’un de sortir avec toi. Personnalise, partage le lien, et laisse le bouton Non s’enfuir."
+  },
+  "Header": {
+    "tagline": "la question, version joueuse"
+  },
+  "Home": {
+    "eyebrow": "Sans code · Un lien · Prêt à envoyer",
+    "title": "Pose la question. Laisse le Non courir.",
+    "subtitle": "Tu choisis les mots, le GIF et l’animation. Iels ouvrent un lien : Oui reste, Non fuit. Léger, personnel, sans malaise.",
+    "howTitle": "Comment ça marche",
+    "step1Title": "Personnalise",
+    "step1Body": "Prénom, question, icône, GIF et mot doux.",
+    "step2Title": "Choisis l’animation",
+    "step2Body": "Téléporteur, rétrécisseur ou esquiveur.",
+    "step3Title": "Partage le lien",
+    "step3Body": "WhatsApp, DM, SMS… ça s’ouvre dans le navigateur.",
+    "step4Title": "Attends le oui",
+    "step4Body": "Le bouton Non n’est pas vraiment une option."
+  },
+  "Form": {
+    "theirName": "Leur prénom",
+    "theirNamePlaceholder": "Julie",
+    "question": "Ta question",
+    "questionPlaceholder": "Veux-tu être ma copine ?",
+    "icon": "Choisis une icône cute",
+    "gif": "Choisis un GIF",
+    "note": "Mot doux (optionnel)",
+    "notePlaceholder": "Un petit mot rien que pour elle ou lui…",
+    "noteCount": "{count}/250",
+    "animation": "Animation du bouton Non",
+    "teleporter": "Le téléporteur",
+    "teleporterHint": "Échange de place avec Oui",
+    "shrinker": "Le rétrécisseur",
+    "shrinkerHint": "Devient de plus en plus petit",
+    "evader": "L’esquiveur",
+    "evaderHint": "Fuit le curseur ou le doigt",
+    "submit": "Créer ma page",
+    "errorName": "Ajoute leur prénom.",
+    "errorQuestion": "Écris ta question.",
+    "icons": {
+      "kiss": "Bisou",
+      "note": "Mot doux",
+      "hearts": "Cœurs",
+      "fly": "Papillon",
+      "penguin": "Pingouin",
+      "xoxo": "Xoxo",
+      "alien": "Alien",
+      "cat": "Chat",
+      "bear": "Ourson",
+      "rose": "Rose",
+      "seal": "Phoque",
+      "sparkle": "Éclat"
+    },
+    "gifs": {
+      "hearts": "Cœurs",
+      "kiss": "Bisou",
+      "bear": "Câlin",
+      "penguin": "Pingouin",
+      "cat": "Chat",
+      "love": "Love",
+      "blush": "Timide",
+      "flowers": "Fleurs",
+      "dance": "Danse",
+      "hug": "Hug",
+      "sparkle": "Étoiles",
+      "puppy": "Chiot"
+    }
+  },
+  "Proposal": {
+    "yes": "Oui",
+    "no": "Non",
+    "celebrationTitle": "C’est un oui !",
+    "celebrationBody": "{name} a dit oui. Le moment est à vous.",
+    "invalid": "Cette page de proposition est introuvable ou le lien est incomplet.",
+    "backHome": "Créer une nouvelle page"
+  },
+  "Share": {
+    "title": "Ta page est prête",
+    "hint": "Copie le lien et envoie-le. Il fonctionne sur téléphone et ordinateur.",
+    "copy": "Copier le lien",
+    "copied": "Lien copié !",
+    "preview": "Tu vois un aperçu — c’est exactement ce qu’iels verront."
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "body": "Ce lien n’existe pas. Crée une nouvelle proposition en une minute.",
+    "cta": "Retour à l’accueil"
+  },
+  "Lang": {
+    "fr": "FR",
+    "en": "EN",
+    "label": "Langue"
+  }
+}

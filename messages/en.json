@@ -1,0 +1,97 @@
+{
+  "Meta": {
+    "title": "Willo — Ask with a link",
+    "description": "Build a Yes / No page to ask someone out. Personalize it, share the link, and let the No button run away."
+  },
+  "Header": {
+    "tagline": "the playful way to ask"
+  },
+  "Home": {
+    "eyebrow": "No code · One link · Ready to send",
+    "title": "Ask the question. Let No run.",
+    "subtitle": "You pick the words, the GIF, and the animation. They open one link: Yes stays, No bolts. Light, personal, no awkward speech.",
+    "howTitle": "How it works",
+    "step1Title": "Personalize",
+    "step1Body": "Name, question, icon, GIF, and a love note.",
+    "step2Title": "Pick the animation",
+    "step2Body": "Teleporter, shrinker, or evader.",
+    "step3Title": "Share the link",
+    "step3Body": "WhatsApp, DM, text… it opens in any browser.",
+    "step4Title": "Wait for yes",
+    "step4Body": "The No button is not really an option."
+  },
+  "Form": {
+    "theirName": "Their name",
+    "theirNamePlaceholder": "Julie",
+    "question": "Your question",
+    "questionPlaceholder": "Will you be my girlfriend?",
+    "icon": "Choose a cute icon",
+    "gif": "Choose a GIF",
+    "note": "Love note (optional)",
+    "notePlaceholder": "A short note just for them…",
+    "noteCount": "{count}/250",
+    "animation": "No-button animation",
+    "teleporter": "The teleporter",
+    "teleporterHint": "Swaps places with Yes",
+    "shrinker": "The shrinker",
+    "shrinkerHint": "Gets smaller each try",
+    "evader": "The evader",
+    "evaderHint": "Dodges the cursor or finger",
+    "submit": "Create my page",
+    "errorName": "Add their name.",
+    "errorQuestion": "Write your question.",
+    "icons": {
+      "kiss": "Kiss",
+      "note": "Love note",
+      "hearts": "Hearts",
+      "fly": "Butterfly",
+      "penguin": "Penguin",
+      "xoxo": "Xoxo",
+      "alien": "Alien",
+      "cat": "Cat",
+      "bear": "Teddy",
+      "rose": "Rose",
+      "seal": "Seal",
+      "sparkle": "Sparkle"
+    },
+    "gifs": {
+      "hearts": "Hearts",
+      "kiss": "Kiss",
+      "bear": "Hug",
+      "penguin": "Penguin",
+      "cat": "Cat",
+      "love": "Love",
+      "blush": "Shy",
+      "flowers": "Flowers",
+      "dance": "Dance",
+      "hug": "Hug",
+      "sparkle": "Sparkles",
+      "puppy": "Puppy"
+    }
+  },
+  "Proposal": {
+    "yes": "Yes",
+    "no": "No",
+    "celebrationTitle": "They said yes!",
+    "celebrationBody": "{name} said yes. The moment is yours.",
+    "invalid": "This proposal page is missing or the link is incomplete.",
+    "backHome": "Create a new page"
+  },
+  "Share": {
+    "title": "Your page is ready",
+    "hint": "Copy the link and send it. It works on phones and computers.",
+    "copy": "Copy link",
+    "copied": "Link copied!",
+    "preview": "This is a preview — exactly what they will see."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "This link does not exist. Create a new proposal in a minute.",
+    "cta": "Back home"
+  },
+  "Lang": {
+    "fr": "FR",
+    "en": "EN",
+    "label": "Language"
+  }
+}

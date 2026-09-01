@@ -2,13 +2,10 @@
 
 import { useEffect } from "react";
 
-export default function RootRedirect() {
+export default function RootNotFound() {
   useEffect(() => {
     const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-    const locale = navigator.language.toLowerCase().startsWith("en")
-      ? "en"
-      : "fr";
-    window.location.replace(`${prefix}/${locale}/`);
+    window.location.replace(`${prefix}/fr/`);
   }, []);
 
   return (
