@@ -112,9 +112,23 @@ body {
   pointer-events: none;
 }
 
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
 .btn-yes {
   background: linear-gradient(180deg, #e07a3d 0%, #c45c26 100%);
   box-shadow: 0 10px 24px -10px rgba(196, 92, 38, 0.7);
+  transition:
+    transform 0.16s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.16s ease;
+}
+
+.btn-yes:active {
+  transform: scale(0.97);
+  filter: brightness(1.06);
 }
 
 .btn-no {
@@ -122,6 +136,7 @@ body {
   border: 1.5px solid var(--line);
   color: var(--ink);
   box-shadow: 0 8px 20px -12px rgba(44, 36, 30, 0.28);
+  transition: transform 0.16s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .icon-tile[data-selected="true"],

@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
             className={`rounded-full px-3 py-1 text-xs font-bold tracking-wide transition ${
               active
                 ? "bg-accent text-white"
-                : "text-muted hover:text-ink"
+                : "text-muted active:text-ink sm:hover:text-ink"
             }`}
           >
             {t(code)}

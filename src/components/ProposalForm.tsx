@@ -75,7 +75,7 @@ export function ProposalForm() {
               type="button"
               onClick={() => setIcon(item.id)}
               data-selected={icon === item.id}
-              className="icon-tile flex flex-col items-center gap-1 rounded-2xl bg-white px-2 py-3 text-center shadow-sm ring-1 ring-line transition hover:-translate-y-0.5"
+              className="icon-tile flex min-h-[72px] flex-col items-center gap-1 rounded-2xl bg-white px-2 py-3 text-center shadow-sm ring-1 ring-line transition active:scale-[0.97] sm:hover:-translate-y-0.5"
             >
               <span className="text-2xl" aria-hidden>
                 {item.emoji}
@@ -97,7 +97,7 @@ export function ProposalForm() {
               type="button"
               onClick={() => setGif(item.id)}
               data-selected={gif === item.id}
-              className="gif-tile overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-line"
+              className="gif-tile overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-line transition active:scale-[0.98]"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -136,7 +136,7 @@ export function ProposalForm() {
               type="button"
               onClick={() => setAnimation(item)}
               data-selected={animation === item}
-              className="anim-tile rounded-2xl bg-white px-3 py-3 text-left shadow-sm ring-1 ring-line"
+              className="anim-tile min-h-[72px] rounded-2xl bg-white px-3 py-3 text-left shadow-sm ring-1 ring-line transition active:scale-[0.98]"
             >
               <div className="text-sm font-bold">{t(item)}</div>
               <div className="mt-1 text-xs text-muted">{t(`${item}Hint`)}</div>
@@ -149,7 +149,7 @@ export function ProposalForm() {
 
       <button
         type="submit"
-        className="btn-yes w-full rounded-full py-3.5 text-base font-extrabold text-white transition hover:brightness-105"
+        className="btn-yes w-full rounded-full py-3.5 text-base font-extrabold text-white sm:hover:brightness-105"
       >
         {t("submit")}
       </button>

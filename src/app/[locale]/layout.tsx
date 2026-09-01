@@ -19,6 +19,7 @@ const syne = Syne({
 
 export const viewport: Viewport = {
   themeColor: "#e07a3d",
+  viewportFit: "cover",
 };
 
 export function generateStaticParams() {
@@ -65,7 +66,9 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <div className="relative z-10 flex min-h-dvh flex-col">
             <SiteHeader />
-            <main className="flex flex-1 flex-col">{children}</main>
+            <main className="flex flex-1 flex-col pb-[env(safe-area-inset-bottom)]">
+              {children}
+            </main>
           </div>
         </NextIntlClientProvider>
       </body>
